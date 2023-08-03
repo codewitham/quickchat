@@ -9,8 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@clerk/nextjs": "^4.23.1",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.3",
+    "@mui/material": "^5.14.3",
     "autoprefixer": "10.4.14",
+    "debug": "^4.3.4",
+    "mongoose": "^7.4.1",
     "next": "13.4.12",
+    "openai": "^3.3.0",
     "postcss": "8.4.27",
     "react": "18.2.0",
     "react-dom": "18.2.0",

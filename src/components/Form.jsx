@@ -28,7 +28,7 @@ const Form = () => {
         onChange={(e) => setMessage(e.target.value)}
         value={message}
         required />
-      <button className=' bg-purple-500 text-white rounded-lg px-3 py-2'>
+      <button className=' bg-purple-500 text-white rounded-lg px-3 py-2 hover:bg-purple-400'>
         <SendIcon sx={{ fontSize: 15 }} />
       </button>
     </form>
